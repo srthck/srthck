@@ -27,6 +27,21 @@
 
 </div>
 
+<h2 align="center">🌐 OPEN-SOURCE CONTRIBUTIONS</h2>
+
+XGBoost — Multiclass Softmax Numerical Stability
+C++ · CUDA · Machine Learning Systems · Numerical Computing
+Status: Merged into upstream master · PR #12744 · Issue #12735
+
+Identified and fixed a numerical correctness bug in XGBoost's multiclass classification objective that could produce incorrect gradients when prediction margins were extremely negative.
+- Root Cause Analysis: Traced the issue to incorrect floating-point initialization in the softmax row-maximum calculation. std::numeric_limits<float>::min() returns the smallest positive normalized float, not the most negative representable float.
+- Implementation: Replaced min() with lowest() in both CPU and CUDA implementations to ensure correct row-maximum initialization.
+- Regression Testing: Added a C++ regression test using large negative logit shifts to verify softmax shift invariance and gradient and pseudo-Hessian consistency.
+- Validation: Passed all 75 targeted CPU tests. The full C++ test suite reported 790 passed, 3 skipped, and 0 failed.
+- Upstream Collaboration: Submitted the fix for maintainer review and incorporated requested formatting changes before the PR was merged.
+Technologies & Skills: C++ · CUDA · XGBoost · Machine Learning · Multiclass Classification · Softmax · Gradient Computation · Floating-Point Arithmetic · Numerical Stability · Root Cause Analysis · Regression Testing · Open-Source Software Development
+
+Note: CUDA execution was not tested locally because a suitable GPU build was unavailable.
 <h2 align="center">◈ ENGINEERING PROFILE</h2>
 
 <div align="center">
@@ -313,21 +328,6 @@ FastAPI
 </tr>
 </table>
 
-<h2 align="center">🌐 OPEN-SOURCE CONTRIBUTIONS</h2>
-
-XGBoost — Multiclass Softmax Numerical Stability
-C++ · CUDA · Machine Learning Systems · Numerical Computing
-Status: Merged into upstream master · PR #12744 · Issue #12735
-
-Identified and fixed a numerical correctness bug in XGBoost's multiclass classification objective that could produce incorrect gradients when prediction margins were extremely negative.
-- Root Cause Analysis: Traced the issue to incorrect floating-point initialization in the softmax row-maximum calculation. std::numeric_limits<float>::min() returns the smallest positive normalized float, not the most negative representable float.
-- Implementation: Replaced min() with lowest() in both CPU and CUDA implementations to ensure correct row-maximum initialization.
-- Regression Testing: Added a C++ regression test using large negative logit shifts to verify softmax shift invariance and gradient and pseudo-Hessian consistency.
-- Validation: Passed all 75 targeted CPU tests. The full C++ test suite reported 790 passed, 3 skipped, and 0 failed.
-- Upstream Collaboration: Submitted the fix for maintainer review and incorporated requested formatting changes before the PR was merged.
-Technologies & Skills: C++ · CUDA · XGBoost · Machine Learning · Multiclass Classification · Softmax · Gradient Computation · Floating-Point Arithmetic · Numerical Stability · Root Cause Analysis · Regression Testing · Open-Source Software Development
-
-Note: CUDA execution was not tested locally because a suitable GPU build was unavailable.
 <h2 align="center">🧩 SELECTED BUILDS</h2>
 
 <details>
