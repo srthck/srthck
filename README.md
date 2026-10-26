@@ -593,8 +593,3 @@ AI · Backend · Data · Reliability · FinTech
 </div>
 ```
 
-Also, I removed the old trophy section because it was visual noise, while retaining the useful animated elements from your original profile: header, typing effect, stats, streak, contribution graph, and project presentation. Your original README already used those visual mechanisms.  
-
-After pasting: click Preview. The <table>, <details>, headings, badges, and diagrams should now render as UI instead of showing the source code.
-
-And yes: Payroll is explicitly IN DEVELOPMENT throughout this version.
