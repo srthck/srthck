@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,25:0B1120,55:172554,80:1D4ED8,100:2563EB&height=250&section=header&text=SARTHAK%20KADAM&fontSize=58&fontAlignY=35&fontColor=F8FAFC&desc=AI%20%2F%20ML%20%20%E2%80%A2%20%20BACKEND%20ENGINEERING%20%20%E2%80%A2%20%20SYSTEMS%20ENGINEERING&descAlignY=57&descSize=16&descAlign=50&animation=twinkling" width="100%" alt="Sarthak Kadam"/>
@@ -7,7 +6,6 @@
 <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=850&color=60A5FA&center=true&vCenter=true&width=900&height=40&lines=AI+%2B+Backend+Systems+Engineer;Building+for+Trust%2C+Risk%2C+Reliability+%26+Scale;TrustMesh+%E2%80%94+Evidence+%26+Trust+Control+Plane;PreFlight+%E2%80%94+Pre-Deployment+Risk+Analysis;Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+TypeScript;Problem+%E2%86%92+Architecture+%E2%86%92+System+%E2%86%92+Deployment" alt="Typing SVG"/>
 </a>
 
-<br/>
 
 <a href="https://github.com/srthck">
 <img src="https://img.shields.io/badge/GITHUB-020617?style=for-the-badge&logo=github&logoColor=white"/>
@@ -22,42 +20,36 @@
 <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<br/><br/>
+
+
 
 <img src="https://komarev.com/ghpvc/?username=srthck&label=PROFILE%20VIEWS&color=2563EB&style=for-the-badge"/>
 
 </div>
 
----
-
 <h2 align="center">◈ ENGINEERING PROFILE</h2>
 
 <div align="center">
 
-### **AI / ML · Backend · Data · Reliability · FinTech**
-
+AI / ML · Backend · Data · Reliability · FinTech
 </div>
 
-I am a **B.Tech Computer Science & Engineering student at MIT ADT University, Pune**, focused on building **AI/ML applications, backend systems, developer tools, data-intensive platforms, and production software**.
+I am a B.Tech Computer Science & Engineering student at MIT ADT University, Pune, focused on building AI/ML applications, backend systems, developer tools, data-intensive platforms, and production software.
 
 My work sits at the intersection of:
 
-**Artificial Intelligence × Backend Engineering × Data Systems × Software Reliability × FinTech**
+Artificial Intelligence × Backend Engineering × Data Systems × Software Reliability × FinTech
 
 I am especially interested in systems where the difficult problems are not the happy path, but:
 
-`uncertainty` · `bad data` · `failure` · `inconsistent state` · `unreliable networks` · `deployment risk`
-
----
-
+uncertainty · bad data · failure · inconsistent state · unreliable networks · deployment risk
 <h2 align="center">⚡ WHAT I BUILD</h2>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 AI / ML
-
+🧠 AI / ML
 - Machine Learning
 - Computer Vision
 - AI-powered applications
@@ -65,13 +57,11 @@ I am especially interested in systems where the difficult problems are not the h
 - Evidence reasoning
 - LLM integration
 - ML inference pipelines
-
 </td>
 
 <td width="50%" valign="top">
 
-### ⚙️ BACKEND
-
+⚙️ BACKEND
 - REST APIs
 - FastAPI
 - Node.js / Express
@@ -79,15 +69,13 @@ I am especially interested in systems where the difficult problems are not the h
 - MongoDB
 - Data modeling
 - Authentication / Authorization
-
 </td>
 </tr>
 
 <tr>
 <td valign="top">
 
-### 🏗️ SYSTEMS
-
+🏗️ SYSTEMS
 - System Design
 - Data Integrity
 - Idempotency
@@ -95,13 +83,11 @@ I am especially interested in systems where the difficult problems are not the h
 - Offline-first systems
 - Realtime systems
 - Failure-aware architecture
-
 </td>
 
 <td valign="top">
 
-### 🚀 ENGINEERING
-
+🚀 ENGINEERING
 - Docker
 - Git / GitHub
 - CI/CD
@@ -109,12 +95,9 @@ I am especially interested in systems where the difficult problems are not the h
 - Developer tooling
 - Risk analysis
 - Software reliability
-
 </td>
 </tr>
 </table>
-
----
 
 <h2 align="center">🧠 FLAGSHIP SYSTEMS</h2>
 
@@ -134,15 +117,12 @@ I am especially interested in systems where the difficult problems are not the h
 <img src="https://img.shields.io/badge/TRUST%20%26%20SAFETY-0F172A?style=flat-square"/>
 </p>
 
-> **Can I trust this before I act on it?**
+Can I trust this before I act on it?
 
-TrustMesh is a **local-first, pre-transaction evidence and trust system** designed to help evaluate transactions, payment destinations, identities, and claims before action.
+TrustMesh is a local-first, pre-transaction evidence and trust system designed to help evaluate transactions, payment destinations, identities, and claims before action.
 
 Instead of reducing trust to a single binary prediction, TrustMesh organizes evidence, preserves provenance, evaluates consistency, represents uncertainty, and identifies what evidence should be checked next.
-
-### Decision Pipeline
-
-```text
+Decision Pipeline
 EVIDENCE
    ↓
 EXTRACTION
@@ -160,25 +140,19 @@ NEXT-BEST EVIDENCE
 DETERMINISTIC POLICY
    ↓
 PASS · VERIFY · STOP
-````
-
-### Core Engineering
-
-`On-device OCR`
-`QR Analysis`
-`Claim Extraction`
-`Evidence Graph`
-`Provenance`
-`Contradiction Detection`
-`Risk Scoring`
-`Confidence`
-`Coverage`
-`Deterministic Policy`
-
-### Stack
-
-`Kotlin` `Android` `Jetpack Compose` `Material 3` `AndroidX` `Google ML Kit`
-
+Core Engineering
+On-device OCR
+QR Analysis
+Claim Extraction
+Evidence Graph
+Provenance
+Contradiction Detection
+Risk Scoring
+Confidence
+Coverage
+Deterministic Policy
+Stack
+Kotlin Android Jetpack Compose Material 3 AndroidX Google ML Kit
 </td>
 
 <td width="50%" valign="top">
@@ -194,19 +168,13 @@ PASS · VERIFY · STOP
 <img src="https://img.shields.io/badge/DEVELOPER%20INFRASTRUCTURE-0F172A?style=flat-square"/>
 </p>
 
-> **Before you deploy it — what could break?**
+Before you deploy it — what could break?
 
-PreFlight is a developer-focused system designed to analyze the **risk introduced by software changes before production deployment**.
+PreFlight is a developer-focused system designed to analyze the risk introduced by software changes before production deployment.
 
 Instead of:
-
-```text
 CODE WORKS → DEPLOY
-```
-
 PreFlight thinks in terms of:
-
-```text
 CHANGE
   ↓
 IMPACT
@@ -222,73 +190,51 @@ FAILURE
 RECOVERY
   ↓
 DECISION
-```
-
-### Analysis
-
-`Git / Diff`
-`Code Impact`
-`Dependencies`
-`API Impact`
-`SQL / Database`
-`Docker`
-`Blast Radius`
-`Failure Modes`
-`Rollback Analysis`
-
-### Decision Layer
-
-```text
+Analysis
+Git / Diff
+Code Impact
+Dependencies
+API Impact
+SQL / Database
+Docker
+Blast Radius
+Failure Modes
+Rollback Analysis
+Decision Layer
 SAFE · CAUTION · DO NOT DEPLOY
-```
-
-### Stack
-
-`Python` `Node.js` `TypeScript` `Git` `PostgreSQL` `Docker`
-
+Stack
+Python Node.js TypeScript Git PostgreSQL Docker
 </td>
 
 </tr>
 </table>
 
----
-
 <h2 align="center">🔥 THE COMMON THREAD</h2>
 
 <div align="center">
 
-| SYSTEM            | PROBLEM                      | CORE IDEA                 | DECISION                           |
-| :---------------- | :--------------------------- | :------------------------ | :--------------------------------- |
-| 🕸️ **TrustMesh** | Trust under uncertainty      | Evidence + reasoning      | **PASS / VERIFY / STOP**           |
-| 🛫 **PreFlight**  | Deployment under uncertainty | Impact + failure analysis | **SAFE / CAUTION / DO NOT DEPLOY** |
+SYSTEM	PROBLEM	CORE IDEA	DECISION
+🕸️ TrustMesh	Trust under uncertainty	Evidence + reasoning	PASS / VERIFY / STOP
+🛫 PreFlight	Deployment under uncertainty	Impact + failure analysis	SAFE / CAUTION / DO NOT DEPLOY
+
 
 </div>
 
-### Same engineering instinct:
-
-**Identify uncertainty → gather evidence → reason about risk → make the decision explainable.**
-
----
-
+Same engineering instinct:
+Identify uncertainty → gather evidence → reason about risk → make the decision explainable.
 <h2 align="center">🏭 PRODUCTION SOFTWARE</h2>
 
-## 🚛 Shivam Transport
-
-### Production Logistics Operations Platform
-
-A full-stack logistics platform built for an **actual transport business**.
+🚛 Shivam Transport
+Production Logistics Operations Platform
+A full-stack logistics platform built for an actual transport business.
 
 The project moved my engineering thinking from:
-
-> **"Can I build it?"**
+"Can I build it?"
 
 to:
+"Can someone depend on it?"
 
-> **"Can someone depend on it?"**
-
-### Operational Surface
-
-```text
+Operational Surface
 TRIPS
  ├── Revenue
  ├── Collections
@@ -296,33 +242,20 @@ TRIPS
  ├── Offline Submission
  ├── Field Workflows
  └── Mobile Deployment
-```
+Engineering
+React 19 TypeScript Node.js MUI Capacitor Server-Sent Events
+Real-world constraints
+Unreliable Connectivity · Realtime State · Offline Queueing · Field Usage · Operational Data Integrity
 
-### Engineering
-
-`React 19` `TypeScript` `Node.js` `MUI` `Capacitor` `Server-Sent Events`
-
-### Real-world constraints
-
-`Unreliable Connectivity` · `Realtime State` · `Offline Queueing` · `Field Usage` · `Operational Data Integrity`
-
-**Status:** 🟢 Production
-
----
-
+Status: 🟢 Production
 <h2 align="center">💳 FINTECH / DATA INTEGRITY</h2>
 
-## 🧾 MSME Payroll & Statutory Compliance
-
-### 🚧 IN DEVELOPMENT
-
-A systems-design project focused on **financial data integrity, auditability, statutory compliance, and explainable payroll processing**.
+🧾 MSME Payroll & Statutory Compliance
+🚧 IN DEVELOPMENT
+A systems-design project focused on financial data integrity, auditability, statutory compliance, and explainable payroll processing.
 
 The architecture treats payroll as a controlled financial process rather than a simple salary calculator.
-
-### Current Architecture
-
-```text
+Current Architecture
 PAYROLL INPUT
       ↓
 RULE VERSIONING
@@ -334,137 +267,119 @@ IMMUTABLE SNAPSHOT
 FINANCIAL LEDGER
       ↓
 AUDIT TRAIL
-```
+Design Principles
+- Immutable payroll snapshots
+- Versioned PF / ESI / PT rules
+- Explainable deductions
+- Append-only financial ledger
+- Idempotent payroll execution
+- Audit-oriented data modeling
+Stack
+FastAPI PostgreSQL React TypeScript Docker
 
-### Design Principles
-
-* Immutable payroll snapshots
-* Versioned PF / ESI / PT rules
-* Explainable deductions
-* Append-only financial ledger
-* Idempotent payroll execution
-* Audit-oriented data modeling
-
-### Stack
-
-`FastAPI` `PostgreSQL` `React` `TypeScript` `Docker`
-
-**Status:** 🟡 Architecture + Development in progress
-
----
-
+Status: 🟡 Architecture + Development in progress
 <h2 align="center">🤖 AI / ML ENGINEERING</h2>
 
 <table>
 <tr>
 <td align="center" width="25%">
 
-### 👁️ Computer Vision
-
+👁️ Computer Vision
 YOLOv8
 OpenCV
 MediaPipe
-
 </td>
 
 <td align="center" width="25%">
 
-### 🧠 Machine Learning
-
+🧠 Machine Learning
 scikit-learn
 TensorFlow
-
 </td>
 
 <td align="center" width="25%">
 
-### 💬 NLP / LLM
-
+💬 NLP / LLM
 Hugging Face
 LLM APIs
-
 </td>
 
 <td align="center" width="25%">
 
-### ⚙️ AI Backend
-
+⚙️ AI Backend
 Python
 FastAPI
-
 </td>
 </tr>
 </table>
 
----
+<h2 align="center">🌐 OPEN-SOURCE CONTRIBUTIONS</h2>
 
+XGBoost — Multiclass Softmax Numerical Stability
+C++ · CUDA · Machine Learning Systems · Numerical Computing
+Status: Merged into upstream master · PR #12744 · Issue #12735
+
+Identified and fixed a numerical correctness bug in XGBoost's multiclass classification objective that could produce incorrect gradients when prediction margins were extremely negative.
+- Root Cause Analysis: Traced the issue to incorrect floating-point initialization in the softmax row-maximum calculation. std::numeric_limits<float>::min() returns the smallest positive normalized float, not the most negative representable float.
+- Implementation: Replaced min() with lowest() in both CPU and CUDA implementations to ensure correct row-maximum initialization.
+- Regression Testing: Added a C++ regression test using large negative logit shifts to verify softmax shift invariance and gradient and pseudo-Hessian consistency.
+- Validation: Passed all 75 targeted CPU tests. The full C++ test suite reported 790 passed, 3 skipped, and 0 failed.
+- Upstream Collaboration: Submitted the fix for maintainer review and incorporated requested formatting changes before the PR was merged.
+Technologies & Skills: C++ · CUDA · XGBoost · Machine Learning · Multiclass Classification · Softmax · Gradient Computation · Floating-Point Arithmetic · Numerical Stability · Root Cause Analysis · Regression Testing · Open-Source Software Development
+
+Note: CUDA execution was not tested locally because a suitable GPU build was unavailable.
 <h2 align="center">🧩 SELECTED BUILDS</h2>
 
 <details>
 <summary><b>🧩 SchemaSense AI — Semantic JSON Inference Platform</b></summary>
 
-<br/>
 
 Hybrid JSON intelligence platform combining deterministic validation with ML-assisted semantic type inference.
 
-**Capabilities**
+Capabilities
+- Malformed JSON detection and repair
+- Semantic type inference
+- Context-aware TypeScript generation
+- ML-assisted prediction
+- Backend API integration
+Stack: React TypeScript Node.js Express FastAPI scikit-learn
 
-* Malformed JSON detection and repair
-* Semantic type inference
-* Context-aware TypeScript generation
-* ML-assisted prediction
-* Backend API integration
-
-**Stack:** `React` `TypeScript` `Node.js` `Express` `FastAPI` `scikit-learn`
-
-**Repository:** [https://github.com/srthck/schemasense-ai](https://github.com/srthck/schemasense-ai)
-
+Repository: https://github.com/srthck/schemasense-ai
 </details>
 
-<br/>
 
 <details>
 <summary><b>🚑 AmbuFlow — Emergency Ambulance Coordination</b></summary>
 
-<br/>
 
 Emergency coordination platform with authentication, role-based workflows, dashboards and live tracking.
 
-**Stack:** `Node.js` `Express` `MongoDB` `Firebase` `Google Maps`
+Stack: Node.js Express MongoDB Firebase Google Maps
 
-**Repository:** [https://github.com/srthck/AmbuFlow](https://github.com/srthck/AmbuFlow)
-
+Repository: https://github.com/srthck/AmbuFlow
 </details>
 
-<br/>
 
 <details>
 <summary><b>👁️ YOLOv8 Acne Analysis — Computer Vision</b></summary>
 
-<br/>
 
 Computer-vision pipeline for acne detection and classification using YOLOv8 and image-processing techniques.
 
-**Stack:** `Python` `YOLOv8` `OpenCV`
+Stack: Python YOLOv8 OpenCV
 
-**Repository:** [https://github.com/srthck/yolov8-acne-analysis](https://github.com/srthck/yolov8-acne-analysis)
-
+Repository: https://github.com/srthck/yolov8-acne-analysis
 </details>
 
-<br/>
 
 <details>
 <summary><b>🖼️ VisionCaption AI — Deep Learning</b></summary>
 
-<br/>
 
 Computer-vision and deep-learning application for generating natural-language descriptions from images.
 
-**Stack:** `Python` `TensorFlow` `OpenCV`
-
+Stack: Python TensorFlow OpenCV
 </details>
-
----
 
 <h2 align="center">🧰 TECHNICAL ARSENAL</h2>
 
@@ -510,36 +425,24 @@ Computer-vision and deep-learning application for generating natural-language de
 </tr>
 </table>
 
----
-
 <h2 align="center">💼 EXPERIENCE</h2>
 
-## Full-Stack Web Development Intern — Prodigy InfoTech
-
+Full-Stack Web Development Intern — Prodigy InfoTech
 Worked across multiple full-stack applications involving:
+- JWT authentication and authorization
+- Employee management systems
+- React / Node.js / MongoDB applications
+- Realtime communication
+- Financial-management workflows
+Recognition: Letter of Recommendation
 
-* JWT authentication and authorization
-* Employee management systems
-* React / Node.js / MongoDB applications
-* Realtime communication
-* Financial-management workflows
-
-**Recognition:** Letter of Recommendation
-
-`React` `Node.js` `JavaScript` `MongoDB`
-
----
-
-## Full-Stack Development Intern — CodeAlpha
-
+React Node.js JavaScript MongoDB
+Full-Stack Development Intern — CodeAlpha
 Completed a one-month full-stack development internship delivering application assignments across modern web technologies.
 
-**Recognition:** Certificate of Completion + Letter of Recommendation
+Recognition: Certificate of Completion + Letter of Recommendation
 
-`React` `Node.js` `JavaScript` `APIs`
-
----
-
+React Node.js JavaScript APIs
 <h2 align="center">🧬 ENGINEERING DNA</h2>
 
 <table>
@@ -558,11 +461,8 @@ Completed a one-month full-stack development internship delivering application a
 </tr>
 </table>
 
----
-
 <h2 align="center">🧪 HOW I BUILD</h2>
 
-```text
 01  Understand the real problem
 02  Model the system and data
 03  Define boundaries and invariants
@@ -573,11 +473,7 @@ Completed a one-month full-stack development internship delivering application a
 08  Deploy
 09  Observe
 10  Iterate
-```
-
-### Questions I ask before shipping
-
-```text
+Questions I ask before shipping
 → What if the input is malformed?
 → What if the network disappears?
 → What if a dependency fails?
@@ -586,82 +482,65 @@ Completed a one-month full-stack development internship delivering application a
 → What if the model is uncertain?
 → What if production behaves differently?
 → Can the system explain what happened?
-```
-
----
-
 <h2 align="center">🎯 CURRENTLY BUILDING</h2>
 
 <table>
 <tr>
 <td align="center" width="33%">
 
-## 🕸️ TrustMesh
-
-`AI`
-`Trust & Safety`
-`Evidence`
-`Android`
-`On-device ML`
-
+🕸️ TrustMesh
+AI
+Trust & Safety
+Evidence
+Android
+On-device ML
 </td>
 
 <td align="center" width="33%">
 
-## 🛫 PreFlight
-
-`Developer Tools`
-`Risk Analysis`
-`Git`
-`Deployment`
-`Reliability`
-
+🛫 PreFlight
+Developer Tools
+Risk Analysis
+Git
+Deployment
+Reliability
 </td>
 
 <td align="center" width="33%">
 
-## 🧾 Payroll
-
-`FinTech`
-`PostgreSQL`
-`Auditability`
-`Statutory Rules`
-`Ledger`
-
+🧾 Payroll
+FinTech
+PostgreSQL
+Auditability
+Statutory Rules
+Ledger
 </td>
 </tr>
 </table>
-
----
 
 <h2 align="center">🏆 BUILD STATUS</h2>
 
 <div align="center">
 
-| Status | Project                  | Engineering Signal                 |
-| :----: | :----------------------- | :--------------------------------- |
-|   🟢   | **Shivam Transport**     | Production / Real-world Operations |
-|   🟢   | **SchemaSense AI**       | AI + Backend + Semantic Inference  |
-|   🟢   | **AmbuFlow**             | Realtime / Full Stack              |
-|   🟢   | **YOLOv8 Acne Analysis** | Computer Vision                    |
-|   🟢   | **VisionCaption AI**     | Deep Learning                      |
-|   🔵   | **TrustMesh**            | Trust + AI + Evidence Systems      |
-|   🔵   | **PreFlight**            | Developer Infrastructure + Risk    |
-|   🟡   | **MSME Payroll**         | FinTech + Auditability             |
+Status	Project	Engineering Signal
+🟢	Shivam Transport	Production / Real-world Operations
+🟢	SchemaSense AI	AI + Backend + Semantic Inference
+🟢	AmbuFlow	Realtime / Full Stack
+🟢	YOLOv8 Acne Analysis	Computer Vision
+🟢	VisionCaption AI	Deep Learning
+🔵	TrustMesh	Trust + AI + Evidence Systems
+🔵	PreFlight	Developer Infrastructure + Risk
+🟡	MSME Payroll	FinTech + Auditability
+
 
 </div>
-
----
 
 <h2 align="center">🔎 ENGINEERING KEYWORDS</h2>
 
 <div align="center">
 
-`AI Engineer` · `ML Engineer` · `Backend Engineer` · `Software Engineer` · `Python Developer` · `FastAPI Developer` · `Full Stack Developer` · `Computer Vision Engineer` · `Data Engineer` · `FinTech Engineer` · `Systems Engineer` · `Developer Tools` · `AI Infrastructure` · `Software Reliability` · `System Design` · `API Development` · `PostgreSQL` · `Docker`
-
+AI Engineer · ML Engineer · Backend Engineer · Software Engineer · Python Developer · FastAPI Developer · Full Stack Developer · Computer Vision Engineer · Data Engineer · FinTech Engineer · Systems Engineer · Developer Tools · AI Infrastructure · Software Reliability · System Design · API Development · PostgreSQL · Docker
 </div>
-
----
 
 <h2 align="center">📊 GITHUB ANALYTICS</h2>
 
@@ -671,13 +550,12 @@ Completed a one-month full-stack development internship delivering application a
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=srthck&theme=transparent&hide_border=true&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=CBD5E1&dates=64748B" width="48%"/>
 
-<br/><br/>
+
+
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srthck&layout=compact&theme=transparent&hide_border=true&title_color=60A5FA&text_color=CBD5E1" width="45%"/>
 
 </div>
-
----
 
 <h2 align="center">🐍 CONTRIBUTION FLOW</h2>
 
@@ -687,8 +565,6 @@ Completed a one-month full-stack development internship delivering application a
 
 </div>
 
----
-
 <h2 align="center">📡 CONTRIBUTION ACTIVITY</h2>
 
 <div align="center">
@@ -697,26 +573,19 @@ Completed a one-month full-stack development internship delivering application a
 
 </div>
 
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,35:1D4ED8,65:172554,100:020617&height=150&section=footer&animation=twinkling" width="100%"/>
 
-<br/>
 
-# ⚡ BUILDING SYSTEMS, NOT JUST PROJECTS.
-
-### AI · Backend · Data · Reliability · FinTech
-
-<br/>
+⚡ BUILDING SYSTEMS, NOT JUST PROJECTS.
+AI · Backend · Data · Reliability · FinTech
 
 <a href="https://github.com/srthck">
 <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
  
-
 <a href="https://www.linkedin.com/in/sarthak-kadam-102134360">
 <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0F172A?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -726,6 +595,6 @@ Completed a one-month full-stack development internship delivering application a
 
 Also, I removed the old trophy section because it was visual noise, while retaining the useful animated elements from your original profile: header, typing effect, stats, streak, contribution graph, and project presentation. Your original README already used those visual mechanisms.  
 
-**After pasting: click `Preview`.** The `<table>`, `<details>`, headings, badges, and diagrams should now render as UI instead of showing the source code.
+After pasting: click Preview. The <table>, <details>, headings, badges, and diagrams should now render as UI instead of showing the source code.
 
-And yes: **Payroll is explicitly `IN DEVELOPMENT` throughout this version.**
+And yes: Payroll is explicitly IN DEVELOPMENT throughout this version.
