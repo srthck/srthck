@@ -1,595 +1,192 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,25:0B1120,55:172554,80:1D4ED8,100:2563EB&height=250&section=header&text=SARTHAK%20KADAM&fontSize=58&fontAlignY=35&fontColor=F8FAFC&desc=AI%20%2F%20ML%20%20%E2%80%A2%20%20BACKEND%20ENGINEERING%20%20%E2%80%A2%20%20SYSTEMS%20ENGINEERING&descAlignY=57&descSize=16&descAlign=50&animation=twinkling" width="100%" alt="Sarthak Kadam"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:1E3A8A,100:2563EB&height=180&section=header&text=Sarthak%20Kadam&fontSize=52&fontAlignY=36&fontColor=F8FAFC&desc=Correctness-critical%20backend%20%C2%B7%20Fintech%20%C2%B7%20ML%20systems&descAlignY=58&descSize=15&animation=fadeIn" width="100%"/>
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=850&color=60A5FA&center=true&vCenter=true&width=900&height=40&lines=AI+%2B+Backend+Systems+Engineer;Building+for+Trust%2C+Risk%2C+Reliability+%26+Scale;TrustMesh+%E2%80%94+Evidence+%26+Trust+Control+Plane;PreFlight+%E2%80%94+Pre-Deployment+Risk+Analysis;Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+TypeScript;Problem+%E2%86%92+Architecture+%E2%86%92+System+%E2%86%92+Deployment" alt="Typing SVG"/>
-</a>
+**B.Tech CSE @ MIT ADT University, Pune · 2028**
 
-
-<a href="https://github.com/srthck">
-<img src="https://img.shields.io/badge/GITHUB-020617?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/sarthak-kadam-102134360">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://leetcode.com/u/sarthak6001/">
-<img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
-<a href="mailto:sarthakkadam.sk07@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-
-
-
-<img src="https://komarev.com/ghpvc/?username=srthck&label=PROFILE%20VIEWS&color=2563EB&style=for-the-badge"/>
+[LinkedIn](https://www.linkedin.com/in/sarthak-kadam-102134360) · [LeetCode](https://leetcode.com/u/sarthak6001/) · [Email](mailto:sarthakkadam.sk07@gmail.com)
 
 </div>
 
-<h2 align="center">🌐 OPEN-SOURCE CONTRIBUTIONS</h2>
-
-XGBoost — Multiclass Softmax Numerical Stability
-C++ · CUDA · Machine Learning Systems · Numerical Computing
-Status: Merged into upstream master · PR #12744 · Issue #12735
-
-Identified and fixed a numerical correctness bug in XGBoost's multiclass classification objective that could produce incorrect gradients when prediction margins were extremely negative.
-- Root Cause Analysis: Traced the issue to incorrect floating-point initialization in the softmax row-maximum calculation. std::numeric_limits<float>::min() returns the smallest positive normalized float, not the most negative representable float.
-- Implementation: Replaced min() with lowest() in both CPU and CUDA implementations to ensure correct row-maximum initialization.
-- Regression Testing: Added a C++ regression test using large negative logit shifts to verify softmax shift invariance and gradient and pseudo-Hessian consistency.
-- Validation: Passed all 75 targeted CPU tests. The full C++ test suite reported 790 passed, 3 skipped, and 0 failed.
-- Upstream Collaboration: Submitted the fix for maintainer review and incorporated requested formatting changes before the PR was merged.
-Technologies & Skills: C++ · CUDA · XGBoost · Machine Learning · Multiclass Classification · Softmax · Gradient Computation · Floating-Point Arithmetic · Numerical Stability · Root Cause Analysis · Regression Testing · Open-Source Software Development
-
-Note: CUDA execution was not tested locally because a suitable GPU build was unavailable.
-<h2 align="center">◈ ENGINEERING PROFILE</h2>
-
-<div align="center">
-
-AI / ML · Backend · Data · Reliability · FinTech
-</div>
-
-I am a B.Tech Computer Science & Engineering student at MIT ADT University, Pune, focused on building AI/ML applications, backend systems, developer tools, data-intensive platforms, and production software.
-
-My work sits at the intersection of:
-
-Artificial Intelligence × Backend Engineering × Data Systems × Software Reliability × FinTech
-
-I am especially interested in systems where the difficult problems are not the happy path, but:
-
-uncertainty · bad data · failure · inconsistent state · unreliable networks · deployment risk
-<h2 align="center">⚡ WHAT I BUILD</h2>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-🧠 AI / ML
-- Machine Learning
-- Computer Vision
-- AI-powered applications
-- Semantic inference
-- Evidence reasoning
-- LLM integration
-- ML inference pipelines
-</td>
-
-<td width="50%" valign="top">
-
-⚙️ BACKEND
-- REST APIs
-- FastAPI
-- Node.js / Express
-- PostgreSQL
-- MongoDB
-- Data modeling
-- Authentication / Authorization
-</td>
-</tr>
-
-<tr>
-<td valign="top">
-
-🏗️ SYSTEMS
-- System Design
-- Data Integrity
-- Idempotency
-- Audit Trails
-- Offline-first systems
-- Realtime systems
-- Failure-aware architecture
-</td>
-
-<td valign="top">
-
-🚀 ENGINEERING
-- Docker
-- Git / GitHub
-- CI/CD
-- Deployment
-- Developer tooling
-- Risk analysis
-- Software reliability
-</td>
-</tr>
-</table>
-
-<h2 align="center">🧠 FLAGSHIP SYSTEMS</h2>
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-<h2 align="center">🕸️ TrustMesh</h2>
-
-<p align="center">
-<b>Evidence & Trust Control Plane</b>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/STATUS-ACTIVE%20BUILDING-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/TRUST%20%26%20SAFETY-0F172A?style=flat-square"/>
-</p>
-
-Can I trust this before I act on it?
-
-TrustMesh is a local-first, pre-transaction evidence and trust system designed to help evaluate transactions, payment destinations, identities, and claims before action.
-
-Instead of reducing trust to a single binary prediction, TrustMesh organizes evidence, preserves provenance, evaluates consistency, represents uncertainty, and identifies what evidence should be checked next.
-Decision Pipeline
-EVIDENCE
-   ↓
-EXTRACTION
-   ↓
-NORMALIZATION
-   ↓
-EVIDENCE GRAPH
-   ↓
-CONSISTENCY ANALYSIS
-   ↓
-RISK / CONFIDENCE / COVERAGE
-   ↓
-NEXT-BEST EVIDENCE
-   ↓
-DETERMINISTIC POLICY
-   ↓
-PASS · VERIFY · STOP
-Core Engineering
-On-device OCR
-QR Analysis
-Claim Extraction
-Evidence Graph
-Provenance
-Contradiction Detection
-Risk Scoring
-Confidence
-Coverage
-Deterministic Policy
-Stack
-Kotlin Android Jetpack Compose Material 3 AndroidX Google ML Kit
-</td>
-
-<td width="50%" valign="top">
-
-<h2 align="center">🛫 PreFlight</h2>
-
-<p align="center">
-<b>Pre-Deployment Software Risk Analysis</b>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/STATUS-ACTIVE%20BUILDING-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/DEVELOPER%20INFRASTRUCTURE-0F172A?style=flat-square"/>
-</p>
-
-Before you deploy it — what could break?
-
-PreFlight is a developer-focused system designed to analyze the risk introduced by software changes before production deployment.
-
-Instead of:
-CODE WORKS → DEPLOY
-PreFlight thinks in terms of:
-CHANGE
-  ↓
-IMPACT
-  ↓
-DEPENDENCIES
-  ↓
-BLAST RADIUS
-  ↓
-DEPLOYMENT RISK
-  ↓
-FAILURE
-  ↓
-RECOVERY
-  ↓
-DECISION
-Analysis
-Git / Diff
-Code Impact
-Dependencies
-API Impact
-SQL / Database
-Docker
-Blast Radius
-Failure Modes
-Rollback Analysis
-Decision Layer
-SAFE · CAUTION · DO NOT DEPLOY
-Stack
-Python Node.js TypeScript Git PostgreSQL Docker
-</td>
-
-</tr>
-</table>
-
-<h2 align="center">🔥 THE COMMON THREAD</h2>
-
-<div align="center">
-
-SYSTEM	PROBLEM	CORE IDEA	DECISION
-🕸️ TrustMesh	Trust under uncertainty	Evidence + reasoning	PASS / VERIFY / STOP
-🛫 PreFlight	Deployment under uncertainty	Impact + failure analysis	SAFE / CAUTION / DO NOT DEPLOY
-
-
-</div>
-
-Same engineering instinct:
-Identify uncertainty → gather evidence → reason about risk → make the decision explainable.
-<h2 align="center">🏭 PRODUCTION SOFTWARE</h2>
-
-🚛 Shivam Transport
-Production Logistics Operations Platform
-A full-stack logistics platform built for an actual transport business.
-
-The project moved my engineering thinking from:
-"Can I build it?"
-
-to:
-"Can someone depend on it?"
-
-Operational Surface
-TRIPS
- ├── Revenue
- ├── Collections
- ├── Realtime Updates
- ├── Offline Submission
- ├── Field Workflows
- └── Mobile Deployment
-Engineering
-React 19 TypeScript Node.js MUI Capacitor Server-Sent Events
-Real-world constraints
-Unreliable Connectivity · Realtime State · Offline Queueing · Field Usage · Operational Data Integrity
-
-Status: 🟢 Production
-<h2 align="center">💳 FINTECH / DATA INTEGRITY</h2>
-
-🧾 MSME Payroll & Statutory Compliance
-🚧 IN DEVELOPMENT
-A systems-design project focused on financial data integrity, auditability, statutory compliance, and explainable payroll processing.
-
-The architecture treats payroll as a controlled financial process rather than a simple salary calculator.
-Current Architecture
-PAYROLL INPUT
-      ↓
-RULE VERSIONING
-      ↓
-STATUTORY CALCULATION
-      ↓
-IMMUTABLE SNAPSHOT
-      ↓
-FINANCIAL LEDGER
-      ↓
-AUDIT TRAIL
-Design Principles
-- Immutable payroll snapshots
-- Versioned PF / ESI / PT rules
-- Explainable deductions
-- Append-only financial ledger
-- Idempotent payroll execution
-- Audit-oriented data modeling
-Stack
-FastAPI PostgreSQL React TypeScript Docker
-
-Status: 🟡 Architecture + Development in progress
-<h2 align="center">🤖 AI / ML ENGINEERING</h2>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-👁️ Computer Vision
-YOLOv8
-OpenCV
-MediaPipe
-</td>
-
-<td align="center" width="25%">
-
-🧠 Machine Learning
-scikit-learn
-TensorFlow
-</td>
-
-<td align="center" width="25%">
-
-💬 NLP / LLM
-Hugging Face
-LLM APIs
-</td>
-
-<td align="center" width="25%">
-
-⚙️ AI Backend
-Python
-FastAPI
-</td>
-</tr>
-</table>
-
-<h2 align="center">🧩 SELECTED BUILDS</h2>
-
-<details>
-<summary><b>🧩 SchemaSense AI — Semantic JSON Inference Platform</b></summary>
-
-
-Hybrid JSON intelligence platform combining deterministic validation with ML-assisted semantic type inference.
-
-Capabilities
-- Malformed JSON detection and repair
-- Semantic type inference
-- Context-aware TypeScript generation
-- ML-assisted prediction
-- Backend API integration
-Stack: React TypeScript Node.js Express FastAPI scikit-learn
-
-Repository: https://github.com/srthck/schemasense-ai
-</details>
-
-
-<details>
-<summary><b>🚑 AmbuFlow — Emergency Ambulance Coordination</b></summary>
-
-
-Emergency coordination platform with authentication, role-based workflows, dashboards and live tracking.
-
-Stack: Node.js Express MongoDB Firebase Google Maps
-
-Repository: https://github.com/srthck/AmbuFlow
-</details>
-
-
-<details>
-<summary><b>👁️ YOLOv8 Acne Analysis — Computer Vision</b></summary>
-
-
-Computer-vision pipeline for acne detection and classification using YOLOv8 and image-processing techniques.
-
-Stack: Python YOLOv8 OpenCV
-
-Repository: https://github.com/srthck/yolov8-acne-analysis
-</details>
-
-
-<details>
-<summary><b>🖼️ VisionCaption AI — Deep Learning</b></summary>
-
-
-Computer-vision and deep-learning application for generating natural-language descriptions from images.
-
-Stack: Python TensorFlow OpenCV
-</details>
-
-<h2 align="center">🧰 TECHNICAL ARSENAL</h2>
-
-<table>
-<tr>
-<td width="160"><b>Languages</b></td>
-<td>Python · Java · C++ · TypeScript · JavaScript · SQL · Kotlin</td>
-</tr>
-
-<tr>
-<td><b>Backend</b></td>
-<td>FastAPI · Node.js · Express · REST APIs</td>
-</tr>
-
-<tr>
-<td><b>Frontend</b></td>
-<td>React · Next.js · TypeScript · Tailwind CSS</td>
-</tr>
-
-<tr>
-<td><b>Mobile</b></td>
-<td>Android · Kotlin · Jetpack Compose · React Native · Capacitor</td>
-</tr>
-
-<tr>
-<td><b>Databases</b></td>
-<td>PostgreSQL · MongoDB · MySQL · SQLite · Firebase</td>
-</tr>
-
-<tr>
-<td><b>AI / ML</b></td>
-<td>scikit-learn · TensorFlow · YOLOv8 · OpenCV · MediaPipe · Hugging Face</td>
-</tr>
-
-<tr>
-<td><b>Infrastructure</b></td>
-<td>Docker · Git · GitHub Actions · Linux</td>
-</tr>
-
-<tr>
-<td><b>Engineering</b></td>
-<td>System Design · API Design · Data Modeling · Authentication · Authorization · Idempotency · Audit Trails · Offline-First Architecture · Realtime Systems · Risk Analysis · Failure Handling · Observability</td>
-</tr>
-</table>
-
-<h2 align="center">💼 EXPERIENCE</h2>
-
-Full-Stack Web Development Intern — Prodigy InfoTech
-Worked across multiple full-stack applications involving:
-- JWT authentication and authorization
-- Employee management systems
-- React / Node.js / MongoDB applications
-- Realtime communication
-- Financial-management workflows
-Recognition: Letter of Recommendation
-
-React Node.js JavaScript MongoDB
-Full-Stack Development Intern — CodeAlpha
-Completed a one-month full-stack development internship delivering application assignments across modern web technologies.
-
-Recognition: Certificate of Completion + Letter of Recommendation
-
-React Node.js JavaScript APIs
-<h2 align="center">🧬 ENGINEERING DNA</h2>
-
-<table>
-<tr>
-<td align="center"><b>DATA</b><br/>Model state before UI</td>
-<td align="center"><b>FAILURE</b><br/>Design beyond the happy path</td>
-<td align="center"><b>TRUST</b><br/>Preserve evidence + provenance</td>
-<td align="center"><b>RISK</b><br/>Make uncertainty explicit</td>
-</tr>
-
-<tr>
-<td align="center"><b>INTEGRITY</b><br/>Protect system state</td>
-<td align="center"><b>AUDIT</b><br/>Make decisions reconstructable</td>
-<td align="center"><b>IDEMPOTENCY</b><br/>Make repetition safe</td>
-<td align="center"><b>DEPLOY</b><br/>Production is part of engineering</td>
-</tr>
-</table>
-
-<h2 align="center">🧪 HOW I BUILD</h2>
-
-01  Understand the real problem
-02  Model the system and data
-03  Define boundaries and invariants
-04  Design APIs and core architecture
-05  Build the backend
-06  Integrate AI where it adds real value
-07  Test failure cases
-08  Deploy
-09  Observe
-10  Iterate
-Questions I ask before shipping
-→ What if the input is malformed?
-→ What if the network disappears?
-→ What if a dependency fails?
-→ What if the same request runs twice?
-→ What if state becomes inconsistent?
-→ What if the model is uncertain?
-→ What if production behaves differently?
-→ Can the system explain what happened?
-<h2 align="center">🎯 CURRENTLY BUILDING</h2>
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-🕸️ TrustMesh
-AI
-Trust & Safety
-Evidence
-Android
-On-device ML
-</td>
-
-<td align="center" width="33%">
-
-🛫 PreFlight
-Developer Tools
-Risk Analysis
-Git
-Deployment
-Reliability
-</td>
-
-<td align="center" width="33%">
-
-🧾 Payroll
-FinTech
-PostgreSQL
-Auditability
-Statutory Rules
-Ledger
-</td>
-</tr>
-</table>
-
-<h2 align="center">🏆 BUILD STATUS</h2>
-
-<div align="center">
-
-Status	Project	Engineering Signal
-🟢	Shivam Transport	Production / Real-world Operations
-🟢	SchemaSense AI	AI + Backend + Semantic Inference
-🟢	AmbuFlow	Realtime / Full Stack
-🟢	YOLOv8 Acne Analysis	Computer Vision
-🟢	VisionCaption AI	Deep Learning
-🔵	TrustMesh	Trust + AI + Evidence Systems
-🔵	PreFlight	Developer Infrastructure + Risk
-🟡	MSME Payroll	FinTech + Auditability
-
-
-</div>
-
-<h2 align="center">🔎 ENGINEERING KEYWORDS</h2>
-
-<div align="center">
-
-AI Engineer · ML Engineer · Backend Engineer · Software Engineer · Python Developer · FastAPI Developer · Full Stack Developer · Computer Vision Engineer · Data Engineer · FinTech Engineer · Systems Engineer · Developer Tools · AI Infrastructure · Software Reliability · System Design · API Development · PostgreSQL · Docker
-</div>
-
-<h2 align="center">📊 GITHUB ANALYTICS</h2>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=srthck&show_icons=true&include_all_commits=true&rank_icon=github&theme=transparent&hide_border=true&title_color=60A5FA&text_color=CBD5E1&icon_color=60A5FA" width="48%"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=srthck&theme=transparent&hide_border=true&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=CBD5E1&dates=64748B" width="48%"/>
-
-
-
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srthck&layout=compact&theme=transparent&hide_border=true&title_color=60A5FA&text_color=CBD5E1" width="45%"/>
-
-</div>
-
-<h2 align="center">🐍 CONTRIBUTION FLOW</h2>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake"/>
-
-</div>
-
-<h2 align="center">📡 CONTRIBUTION ACTIVITY</h2>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=srthck&bg_color=0D1117&color=94A3B8&line=3B82F6&point=60A5FA&area=true&hide_border=true" width="100%" alt="GitHub Contribution Activity"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,35:1D4ED8,65:172554,100:020617&height=150&section=footer&animation=twinkling" width="100%"/>
-
-
-⚡ BUILDING SYSTEMS, NOT JUST PROJECTS.
-AI · Backend · Data · Reliability · FinTech
-
-<a href="https://github.com/srthck">
-<img src="https://img.shields.io/badge/EXPLORE_MY_WORK-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
- 
-<a href="https://www.linkedin.com/in/sarthak-kadam-102134360">
-<img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0F172A?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
+---
+
+```
+         happy path                    where I work
+    ─────────────────────   │   ───────────────────────────────
+    it compiles             │   the same request arrives twice
+    the test passes         │   the network dies mid-write
+    the demo works          │   the model is confidently wrong
+    the migration runs      │   the rollback has nowhere to go
 ```
 
+I build systems where being *wrong* is more expensive than being *slow*: money that must balance to the paisa, decisions that must be reconstructable years later, deployments that must fail closed. One merged fix in XGBoost, one platform a real business runs on, two engines that refuse to turn uncertainty into confidence.
+
+**Currently:** C++ and algorithms · gradient boosting internals · ML for credit and payment risk
+
+---
+
+## Open source
+
+### XGBoost · numerical stability in the multiclass objective
+
+**`C++`** **`CUDA`** · [Issue #12735](https://github.com/dmlc/xgboost/issues/12735) → [PR #12744 — merged](https://github.com/dmlc/xgboost/pull/12744) · shipped in master
+
+Multiclass training produced **NaN gradients** when every class margin was strongly negative. Softmax is shift-invariant in theory. This implementation was not.
+
+```cpp
+// the bug: FLT_MIN is the smallest POSITIVE normalized float (~1.17e-38)
+float wmax = std::numeric_limits<float>::min();
+for (auto const& p : point) wmax = std::max(p, wmax);
+// every margin negative  ->  wmax never updates  ->  stays ~0
+// exp(x - 0) underflows across the row  ->  denominator 0  ->  NaN
+
+// the fix: the most negative finite float
+float wmax = std::numeric_limits<float>::lowest();
+```
+
+A one-line diff. Finding it was the work.
+
+| | |
+|---|---|
+| **Found by** | Me — reproduction script, root-cause writeup, filed as an issue |
+| **Confirmed** | Maintainer, same day |
+| **Patched** | CPU (C++) and CUDA kernels |
+| **Proved** | Regression test shifting all margins by −110, asserting gradient and pseudo-Hessian invariance — fails on unpatched code |
+| **Verified** | 790 tests passed · 0 failed |
+| **Disclosed** | ≤ 4.8e-6 margin drift over 100 boosting rounds |
+| **Merged** | 6 days after the report |
+
+<sub>CUDA not executed locally — no GPU build available. CI covered that path.</sub>
+
+---
+
+## Systems
+
+### [TrackMarg](https://trackmarg.in) · transport & ledger platform <kbd>production</kbd>
+
+`TypeScript` `React` `Node.js` `PostgreSQL` `Prisma`
+
+Software a real transport and machinery business runs on. **10 customers, 15+ vehicles each, every working day.** The UI was the easy part.
+
+```
+   FIELD (offline, bad network)          SERVER (must never be wrong)
+   ──────────────────────────           ─────────────────────────────
+   trip submitted  ──┐
+                     ├─ queued ──retry──►  idempotency key checked
+   network dies    ──┘                     │
+                                           ├─ ACID transaction
+   SSE push  ◄──────────────────────────   ├─ exact decimal precision
+   reconciled state                        ├─ concurrency control
+                                           └─ append-only audit trail
+```
+
+A retried submission never double-posts. A contended row never interleaves. Every rupee that moves leaves a record of why. **258 PostgreSQL-backed integration tests** hold that line.
+
+<details>
+<summary><b>Why idempotency was the whole problem</b></summary>
+
+<br>
+
+A driver submits a trip. The request times out. He taps again. Without an idempotency key, that's two trips, two invoices, and a customer dispute three weeks later that nobody can reconstruct.
+
+The server derives a deterministic key per submission. Same key, same body → the original response is replayed. Same key, different body → refused outright, because that is a client bug, not a retry. The ledger is append-only, so a correction is a new entry, never a mutation — which means the question *"why does this balance say this?"* always has an answer.
+
+</details>
+
+---
+
+### [TrustMesh](https://github.com/srthck/trustmesh) · payment dispute decision engine
+
+`Python` `SQLite` `Razorpay API` · [live demo](https://trustmesh-d9jj.onrender.com/) · Razorpay AI Buildathon 2026
+
+> Payment systems tell you whether a transaction is **risky**. They don't tell you whether a dispute is **defensible**. Only one of those decides the chargeback.
+
+```
+CLAIM
+  |  what must be proven?        weighted proof obligations
+EVIDENCE
+  |  is it admissible?           source registered, authority assigned
+  |  is it independent?          4 photos of 1 delivery note = 1 source
+  |  is it timely?               a fact that occurred after the
+  |                              assessment cannot support it
+PROOF STATE
+  |  what is still missing?      unresolved mandatory obligations
+  |  what should we get next?    ranked by decision impact AND deadline
+  |  would it change anything?   real adjudicator, run on the hypothetical
+POLICY GATE
+  |
+ACCEPT · REVIEW · CONTEST
+```
+
+Evidence authority is ranked `NETWORK 5 → SYSTEM_OF_RECORD 4 → THIRD_PARTY 3 → MERCHANT 2 → CUSTOMER 1 → MODEL_DERIVED 0`. A model may **propose** a candidate fact. It can never **admit** one — model output sits at authority rank zero regardless of its confidence, so it can corroborate but never carry an obligation alone.
+
+Same inputs, same pinned policy versions, same verdict — years later, from a cold process. **1,062 tests pass with outbound sockets poisoned.**
+
+<details>
+<summary><b>What the benchmark does and does not prove</b></summary>
+
+<br>
+
+On a 44-case held-out set: **0 false contests, against 17** for a coverage-only baseline.
+
+That number is weaker than it looks, and the repo says so. The benchmark is **synthetic and manually labelled**, and the labelling rule shares an author with the policy — so they agree partly by construction. This is construct validity (the implementation matches its stated intent), not production accuracy. The benchmark has also saturated, which means it has stopped discriminating. `docs/INDEPENDENT_EVALUATION_PROTOCOL.md` is how someone else could actually falsify it.
+
+Reporting a metric without its limits is how you get a system nobody should trust.
+
+</details>
+
+---
+
+### [PreFlight](https://github.com/srthck/preflight) · pre-deployment risk analyzer
+
+`Python` `FastAPI` `Tree-sitter` `SQLGlot` `Next.js` · [live demo](https://preflight-delta-weld.vercel.app)
+
+The migration succeeds. The build is green. Production still breaks.
+
+```
+ALTER TABLE users DROP COLUMN phone_number;
+        |
+        |  DB_READ
+        v
+   UserService ──HTTP_CALL──► ProfileAPI ──API_CONSUMES──► ProfileClient
+        |
+        v
+   DO NOT DEPLOY        <- traced from source, not guessed
+```
+
+Parses source code (Tree-sitter), SQL migrations (SQLGlot) and OpenAPI contracts into an evidence graph, then traces multi-hop blast radius and rollback feasibility. Every finding links back to a file and line number, so the verdict is an argument you can audit rather than a score you have to trust.
+
+Four verdicts, and the fourth matters most: `SAFE` · `CAUTION` · `DO NOT DEPLOY` · **`UNKNOWN`**. Missing evidence is reported as missing evidence. **UNKNOWN never silently becomes SAFE.**
+
+Deterministic and hashed — identical input yields an identical decision hash, and the test suite asserts it. Uploaded repositories are treated as hostile: bounded extraction, no execution of uploaded code. **491 tests · `mypy --strict` · Playwright E2E.**
+
+---
+
+## The through line
+
+| | Uncertainty about | Refuses to | Returns |
+|---|---|---|---|
+| **TrackMarg** | whether a request already happened | double-post on retry | the original response |
+| **TrustMesh** | whether a dispute is provable | let a model authorize | ACCEPT · REVIEW · CONTEST |
+| **PreFlight** | what a change reaches | call unknown "safe" | SAFE · CAUTION · DO NOT DEPLOY · UNKNOWN |
+
+Same instinct every time: **make uncertainty explicit, make the decision explainable, fail closed.**
+
+---
+
+## Stack
+
+| | |
+|---|---|
+| **Languages** | C++ · Python · TypeScript · SQL · Java |
+| **Backend** | FastAPI · Node.js · Express · REST · PostgreSQL · SQLite · MongoDB · Prisma |
+| **ML & data** | XGBoost · scikit-learn · pandas · NumPy |
+| **Tooling** | Git · GitHub Actions · Docker · Linux · pytest · Playwright |
+| **Practices** | ACID transactions · idempotency · concurrency control · audit trails · deterministic replay · static analysis |
+
+<div align="center">
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=srthck&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&hide=issues&title_color=2563EB&text_color=475569&icon_color=2563EB" width="420"/>
+
+</div>
